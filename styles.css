@@ -107,7 +107,7 @@ body {
 }
 
 #help-btn {
-  width: 30px;
+  width: 40px;
   height: 30px;
   border: none;
   border-top-right-radius: 40px;
@@ -124,6 +124,7 @@ body {
   padding: 0;
   user-select: none;
   padding-left: 0;
+  padding-right: 7px;
   margin-left: 0px;
 }
 
