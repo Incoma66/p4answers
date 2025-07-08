@@ -107,7 +107,7 @@ body {
 }
 
 #help-btn {
-  width: 40px;
+  width: 20px;
   height: 30px;
   border: none;
   border-top-right-radius: 40px;
@@ -124,8 +124,17 @@ body {
   padding: 0;
   user-select: none;
   padding-left: 0;
-  padding-right: 7px;
   margin-left: 0px;
+}
+
+#help-btn::before {
+  content: '';
+  position: absolute;
+  top: -20px;
+  bottom: -20px;
+  left: -20px;
+  right: -40px;
+  z-index: -1;
 }
 
 #help-tooltip {
