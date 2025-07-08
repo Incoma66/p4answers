@@ -100,7 +100,7 @@ body {
   left: 0;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 1000;
+  z-index: 9999;
   display: flex;
   align-items: center;
   gap: 5px;
@@ -125,6 +125,7 @@ body {
   user-select: none;
   padding-left: 0;
   margin-left: -6px;
+  z-index: 9999;
 }
 
 #help-tooltip {
